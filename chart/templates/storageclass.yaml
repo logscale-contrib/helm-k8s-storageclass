@@ -35,6 +35,6 @@ mountOptions:
   {{- end }}
 {{- end }}
 {{- if .Values.allowedTopologies }}
-annotations:
+allowedTopologies:
 {{ toYaml .Values.allowedTopologies | indent 2 }}
 {{- end }}
