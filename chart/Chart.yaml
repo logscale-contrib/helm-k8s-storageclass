@@ -1,5 +1,5 @@
 apiVersion: v2
-appVersion: "v1.0.0"
+appVersion: "1.0.0"
 home: https://github.com/ameijer/k8s-as-helm
 description: Helm Chart representing a single Storage Class Kubernetes API object
 name: storageclass
@@ -9,8 +9,8 @@ maintainers:
   - name: ameijer
     url: https://github.com/ameijer
 keywords:
-- storageclass
-- storage
-- class
-- api
-- primitives
+  - storageclass
+  - storage
+  - class
+  - api
+  - primitives
